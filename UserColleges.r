@@ -6,7 +6,7 @@ install.packages("networkD3")
 library("networkD3")
 
 # Gather raw JSON formatted data
-URL <- "http://futures.gc.cuny.edu/wp-content/networkvisualizations/userColleges.json"
+URL <- "https://raw.githubusercontent.com/ltagliaferri/FuturesInitiativeNetwork/master/userColleges.json"
 UserCollegesJson <- getURL(URL, ssl.verifypeer = FALSE)
 
 # Convert JSON arrays into data frames
