@@ -25,5 +25,3 @@ forceNetwork(Links = UserCollegesLinks, Nodes = UserCollegesNodes,
              Group = "group", width = 2000, height = 1500,
              opacity = 0.9, zoom = FALSE)
 
-# Clear
-rm(list=ls())
