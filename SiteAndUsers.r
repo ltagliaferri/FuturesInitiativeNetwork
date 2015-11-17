@@ -1,8 +1,7 @@
 # Load RCurl package for downloading the data
 library(RCurl)
 
-# Install (as needed) and load networkD3 package
-install.packages("networkD3")
+# Load networkD3 package
 library("networkD3")
 
 # Gather raw JSON formatted data
